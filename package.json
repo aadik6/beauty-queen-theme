@@ -1,0 +1,26 @@
+{
+  "name": "beauty-queen-theme",
+  "displayName": "Beauty Queen",
+  "description": "A color theme for Pro developer which display your program's beauty",
+  "version": "0.0.1",
+  "publisher": "Aadi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aadik6/beauty-queen-theme"
+  },
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Beauty Queen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Beauty Queen-color-theme.json"
+      }
+    ]
+  }
+}
